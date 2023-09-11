@@ -1,0 +1,746 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://iml-wg.github.io/HEPML-LivingReview/recent/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../about/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
+    
+    
+      
+        <title>Recent - HEP ML Living Review</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.eebd395e.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#recent-publications" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="HEP ML Living Review" class="md-header__button md-logo" aria-label="HEP ML Living Review" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HEP ML Living Review
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Recent
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/iml-wg/HEPML-LivingReview/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Recent
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../about/" class="md-tabs__link">
+      About
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../contribute/" class="md-tabs__link">
+      Contribute
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../code_of_conduct/" class="md-tabs__link">
+      Code of conduct
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../resources/" class="md-tabs__link">
+      Resources
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../cite/" class="md-tabs__link">
+      Cite Us
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="HEP ML Living Review" class="md-nav__button md-logo" aria-label="HEP ML Living Review" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    HEP ML Living Review
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/iml-wg/HEPML-LivingReview/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Recent
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Recent
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#september-2023" class="md-nav__link">
+    September 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#august-2023" class="md-nav__link">
+    August 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#july-2023" class="md-nav__link">
+    July 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#june-2023" class="md-nav__link">
+    June 2023
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contribute/" class="md-nav__link">
+        Contribute
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code_of_conduct/" class="md-nav__link">
+        Code of conduct
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        Resources
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cite/" class="md-nav__link">
+        Cite Us
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#september-2023" class="md-nav__link">
+    September 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#august-2023" class="md-nav__link">
+    August 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#july-2023" class="md-nav__link">
+    July 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#june-2023" class="md-nav__link">
+    June 2023
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="recent-publications">Recent Publications<a class="headerlink" href="#recent-publications" title="Permanent link">&para;</a></h1>
+<p>This is an automatically compiled list of papers which have been added to the living review that were made public within the previous 4 months at the time of updating. This is not an exhaustive list of released papers, and is only able to find those which have both year and month data provided in the bib reference.</p>
+<h2 id="september-2023">September 2023<a class="headerlink" href="#september-2023" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2309.00600">Signal-to-noise improvement through neural network contour deformations for 3D <span class="arithmatex">\(SU(2)\)</span> lattice gauge theory</a></li>
+</ul>
+<h2 id="august-2023">August 2023<a class="headerlink" href="#august-2023" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2308.16722">Mapping QGP properties in Pb--Pb and Xe--Xe collisions at the LHC</a></li>
+<li><a href="https://arxiv.org/abs/2308.16659">Autoencoder-based Online Data Quality Monitoring for the CMS Electromagnetic Calorimeter</a></li>
+<li><a href="https://arxiv.org/abs/2308.16266">Distilling the essential elements of nuclear binding via neural-network quantum states</a></li>
+<li><a href="https://arxiv.org/abs/2308.14789">Scattering with Neural Operators</a></li>
+<li><a href="https://arxiv.org/abs/2308.15796">A Neural Network Approach for Orienting Heavy-Ion Collision Events</a></li>
+<li><a href="https://arxiv.org/abs/2308.16680">Branches of a Tree: Taking Derivatives of Programs with Discrete and Branching Randomness in High Energy Physics</a></li>
+<li><a href="https://arxiv.org/abs/2308.13611">LLPNet: Graph Autoencoder for Triggering Light Long-Lived Particles at HL-LHC</a></li>
+<li><a href="https://arxiv.org/abs/2308.12351">Improving Generative Model-based Unfolding with Schr\"odinger Bridges</a></li>
+<li><a href="https://arxiv.org/abs/2308.12355">Renormalizing Diffusion Models</a></li>
+<li><a href="https://arxiv.org/abs/2308.12339">Refining Fast Calorimeter Simulations with a Schr\"odinger Bridge</a></li>
+<li><a href="https://arxiv.org/abs/2308.11700">SuperCalo: Calorimeter shower super-resolution</a></li>
+<li><a href="https://arxiv.org/abs/2308.12724">Jet energy calibration with deep learning as a Kubeflow pipeline</a> [<a href="https://doi.org/10.1007/s41781-023-00103-y">DOI</a>]</li>
+<li><a href="https://arxiv.org/abs/2308.10035">Overview: Jet quenching with machine learning</a></li>
+<li><a href="https://arxiv.org/abs/2308.09451">Reconstructing <span class="arithmatex">\(S\)</span>-matrix Phases with Machine Learning</a></li>
+<li><a href="https://arxiv.org/abs/2308.09025">SR-GAN for SR-gamma: photon super resolution at collider experiments</a></li>
+<li><a href="https://arxiv.org/abs/2308.08300">Hierarchical High-Point Energy Flow Network for Jet Tagging</a></li>
+<li><a href="https://arxiv.org/abs/2308.07907">Sequential Monte Carlo with Cross-validated Neural Networks for Complexity of Hyperbolic Black Hole Solutions in 4D</a></li>
+<li><a href="https://arxiv.org/abs/2308.05704">Boosting likelihood learning with event reweighting</a></li>
+<li><a href="https://arxiv.org/abs/2308.03876">CaloDiffusion with GLaM for High Fidelity Calorimeter Simulation</a></li>
+<li><a href="https://arxiv.org/abs/2308.02882">Simulation-based inference in the search for CP violation in leptonic WH production</a></li>
+<li><a href="https://arxiv.org/abs/2308.02671">Boosting sensitivity to new physics with unsupervised anomaly detection in dijet resonance search</a></li>
+<li><a href="https://arxiv.org/abs/2308.02697">Improving sensitivity of trilinear RPV SUSY searches using machine learning at the LHC</a></li>
+<li><a href="https://arxiv.org/abs/2308.03847">CaloScore v2: Single-shot Calorimeter Shower Simulation with Diffusion Models</a></li>
+<li><a href="https://arxiv.org/abs/2308.01353">Reconstructing axion-like particles from beam dumps with simulation-based inference</a></li>
+<li><a href="https://arxiv.org/abs/2308.00329">Inclusive, prompt and non-prompt <span class="arithmatex">\(\rm{J}/\psi\)</span> identification in proton-proton collisions at the Large Hadron Collider using machine learning</a></li>
+</ul>
+<h2 id="july-2023">July 2023<a class="headerlink" href="#july-2023" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2307.16506">Explainable Equivariant Neural Networks for Particle Physics: PELICAN</a></li>
+<li><a href="https://arxiv.org/abs/2307.16666">Improving the temporal resolution of event-based electron detectors using neural network cluster analysis</a></li>
+<li><a href="https://arxiv.org/abs/2307.15355">Determination of impact parameter for CEE with Digi-input neural networks</a></li>
+<li><a href="https://arxiv.org/abs/2307.16662">Graph Structure from Point Clouds: Geometric Attention is All You Need</a></li>
+<li><a href="https://arxiv.org/abs/2307.13687">Score-based Diffusion Models for Generating Liquid Argon Time Projection Chamber Images</a></li>
+<li><a href="https://arxiv.org/abs/2307.13050">Tip of the Red Giant Branch Bounds on the Neutrino Magnetic Dipole Moment Revisited</a></li>
+<li><a href="https://arxiv.org/abs/2307.11157">The Interplay of Machine Learning--based Resonant Anomaly Detection Methods</a></li>
+<li><a href="https://arxiv.org/abs/2307.15289">Public Kaggle Competition ''IceCube -- Neutrinos in Deep Ice''</a></li>
+<li><a href="https://arxiv.org/abs/2307.07747">Particle-flow based tau identification at future <span class="arithmatex">\(\textrm{e}^{+}\textrm{e}^{-}\)</span> colliders</a></li>
+<li><a href="https://arxiv.org/abs/2307.07289">Real-time Graph Building on FPGAs for Machine Learning Trigger Applications in Particle Physics</a></li>
+<li><a href="https://arxiv.org/abs/2307.08593">Artificial Intelligence for the Electron Ion Collider (AI4EIC)</a></li>
+<li><a href="https://arxiv.org/abs/2307.06434">Improved selective background Monte Carlo simulation at Belle II with graph attention networks and weighted events</a></li>
+<li><a href="https://arxiv.org/abs/2307.05967">Towards an integrated determination of proton, deuteron and nuclear PDFs</a></li>
+<li><a href="https://arxiv.org/abs/2307.04891">Accelerated Discovery of Machine-Learned Symmetries: Deriving the Exceptional Lie Groups G2, F4 and E6</a></li>
+<li><a href="https://arxiv.org/abs/2307.05152">Fast Neural Network Inference on FPGAs for Triggering on Long-Lived Particles at Colliders</a></li>
+<li><a href="https://arxiv.org/abs/2307.05253">Precise Image Generation on Current Noisy Quantum Computing Devices</a></li>
+<li><a href="https://arxiv.org/abs/2307.05187">Decorrelation using Optimal Transport</a></li>
+<li><a href="https://arxiv.org/abs/2307.04450">Toward a generative modeling analysis of CLAS exclusive <span class="arithmatex">\(2\pi\)</span> photoproduction</a></li>
+<li><a href="https://arxiv.org/abs/2307.04780">Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation</a></li>
+<li><a href="https://arxiv.org/abs/2307.04723">Quark/Gluon Discrimination and Top Tagging with Dual Attention Transformer</a></li>
+<li><a href="https://arxiv.org/abs/2307.03223">Neural Network Field Theories: Non-Gaussianity, Actions, and Locality</a></li>
+<li><a href="https://arxiv.org/abs/2307.02405"><span class="arithmatex">\(\nu^2\)</span>-Flows: Fast and improved neutrino reconstruction in multi-neutrino final states with conditional normalizing flows</a></li>
+<li><a href="https://arxiv.org/abs/2307.01107">Sampling the lattice Nambu-Goto string using Continuous Normalizing Flows</a></li>
+<li><a href="https://arxiv.org/abs/2307.00808">Teaching to extract spectral densities from lattice correlators to a broad audience of learning-machines</a></li>
+<li><a href="https://arxiv.org/abs/2307.01118">Pinning down the leptophobic <span class="arithmatex">\(Z^\prime\)</span> in leptonic final states with Deep Learning</a></li>
+</ul>
+<h2 id="june-2023">June 2023<a class="headerlink" href="#june-2023" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2306.15737">Learning to Isolate Muons in Data</a></li>
+<li><a href="https://arxiv.org/abs/2306.15014">Searches for supersymmetric particles with prompt decays with the ATLAS detector</a></li>
+<li><a href="https://arxiv.org/abs/2306.14817">Black holes and the loss landscape in machine learning</a></li>
+<li><a href="https://arxiv.org/abs/2306.15053">Implicit Quantile Networks For Emulation in Jet Physics</a></li>
+<li><a href="https://arxiv.org/abs/2306.13595">Autoencoders for Real-Time SUEP Detection</a></li>
+<li><a href="https://arxiv.org/abs/2306.13007">Generative modeling of nucleon-nucleon interactions</a></li>
+<li><a href="https://arxiv.org/abs/2306.13606">Machine Learning methods for simulating particle response in the Zero Degree Calorimeter at the ALICE experiment, CERN</a></li>
+<li><a href="https://arxiv.org/abs/2306.13496">Retrieval of Boost Invariant Symbolic Observables via Feature Importance</a></li>
+<li><a href="https://arxiv.org/abs/2306.12955">Triggering Dark Showers with Conditional Dual Auto-Encoders</a></li>
+<li><a href="https://arxiv.org/abs/2307.05497">Towards accurate real-time luminescence thermometry: an automated machine learning approach</a></li>
+<li><a href="https://arxiv.org/abs/2306.11314">Analysis of a Skyrme energy density functional with deep learning</a></li>
+<li><a href="https://arxiv.org/abs/2306.11236">Constraining the Woods-Saxon potential in fusion reactions based on a physics-informed neural network</a></li>
+<li><a href="https://arxiv.org/abs/2306.12584">Hierarchical Neural Simulation-Based Inference Over Event Ensembles</a></li>
+<li><a href="https://arxiv.org/abs/2306.09738">Fast <span class="arithmatex">\(b\)</span>-tagging at the high-level trigger of the ATLAS experiment in LHC Run 3</a></li>
+<li><a href="https://arxiv.org/abs/2306.11668">Principles for Initialization and Architecture Selection in Graph Neural Networks with ReLU Activations</a></li>
+<li><a href="https://arxiv.org/abs/2306.09873">Development of the Topological Trigger for LHCb Run 3</a></li>
+<li><a href="https://arxiv.org/abs/2306.09356">Neutron-Gamma Pulse Shape Discrimination for Organic Scintillation Detector using 2D CNN based Image Classification</a></li>
+<li><a href="https://arxiv.org/abs/2306.09359">Deep Learning-Based Spatiotemporal Multi-Event Reconstruction for Delay Line Detectors</a></li>
+<li><a href="https://arxiv.org/abs/2306.08106">Applications of Deep Learning to physics workflows</a></li>
+<li><a href="https://arxiv.org/abs/2306.08878">IMSRG-Net: A machine learning-based solver for In-Medium Similarity Renormalization Group</a></li>
+<li><a href="https://arxiv.org/abs/2306.08348">Generative deep-learning reveals collective variables of Fermionic systems</a></li>
+<li><a href="https://arxiv.org/abs/2306.07726">Amplitude-assisted tagging of longitudinally polarised bosons using wide neural networks</a></li>
+<li><a href="https://arxiv.org/abs/2306.06743">Comparing machine learning models for tau triggers</a></li>
+<li><a href="https://arxiv.org/abs/2306.06929">Decoding Neutron Star Observations: Revealing Composition through Bayesian Neural Networks</a></li>
+<li><a href="https://arxiv.org/abs/2306.06099">NuCLR: Nuclear Co-Learned Representations</a></li>
+<li><a href="https://arxiv.org/abs/2306.04712">Differentiable Earth Mover's Distance for Data Compression at the High-Luminosity LHC</a></li>
+<li><a href="https://arxiv.org/abs/2306.04179">Photon Reconstruction in the Belle II Calorimeter Using Graph Neural Networks</a></li>
+<li><a href="https://arxiv.org/abs/2306.04415">Flavour tagging with graph neural networks with the ATLAS detector</a></li>
+<li><a href="https://arxiv.org/abs/2306.04171">Nuclear mass predictions based on deep neural network and finite-range droplet model (2012)</a></li>
+<li><a href="https://arxiv.org/abs/2306.03637">Anomaly detection search for new resonances decaying into a Higgs boson and a generic new particle <span class="arithmatex">\(X\)</span> in hadronic final states using $\sqrt{s}</a></li>
+<li><a href="https://arxiv.org/abs/2306.03751">A Correspondence Between Deep Boltzmann Machines and p-Adic Statistical Field Theories</a></li>
+<li><a href="https://arxiv.org/abs/2306.03933">High-dimensional and Permutation Invariant Anomaly Detection</a></li>
+<li><a href="https://arxiv.org/abs/2306.01647">Combining lattice QCD and phenomenological inputs on generalised parton distributions at moderate skewness</a></li>
+</ul>
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "search.share", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+        
+          <script src="../javascripts/mathjax.js"></script>
+        
+      
+        
+          <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        
+      
+        
+          <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        
+      
+    
+  </body>
+</html>
